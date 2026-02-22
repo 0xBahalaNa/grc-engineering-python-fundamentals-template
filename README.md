@@ -12,6 +12,16 @@ Chapters 1–11 cover fundamentals. Chapters 12–20 replace the book's projects
 - **Project 2:** Compliance Data Analysis (Chapters 15–17)
 - **Project 3:** Compliance API with Flask (Chapters 18–20)
 
+## Differences from Python Crash Course (3rd Edition)
+
+The exercises in Chapters 1–11 follow the book's concept progression closely. The projects diverge intentionally:
+
+- **`argparse`** (Chapters 12–14) — Not covered in PCC3E. The CLI audit tool project uses it for command-line argument parsing, which is standard for the type of tools GRC Engineers build. It's part of Python's standard library and straightforward to pick up — the exercise doc provides enough context.
+- **Flask** (Chapters 18–20) — PCC3E teaches Django. Flask is used here because it's lighter weight and better suited for a small compliance API. If you've completed the Django chapters in the book, the concepts transfer directly.
+- **PyYAML** (Exercise 10-7) — Not in PCC3E. YAML is the configuration format used by most compliance-as-code tools (Cloud Custodian, Kubernetes, CI/CD pipelines), so it's included as a `pip install pyyaml` exercise.
+
+None of these require the book to complete. The exercise descriptions in `grc_python_crash_course.md` are self-contained.
+
 ## Getting Started
 
 1. Clone this repository
