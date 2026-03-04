@@ -31,7 +31,7 @@ None of these require the book to complete. The exercise descriptions in `grc_py
 
 ### Using Claude Code as a Tutor
 
-The [`CLAUDE.md`](CLAUDE.md) file configures Claude Code as a Python tutor that reviews your work, runs your code, and gives hints — but never writes solutions. If you use Claude Code, it will follow these rules automatically.
+The [`CLAUDE.md`](CLAUDE.md) file configures Claude Code as a Python tutor that reviews your work, runs your code, and gives hints — but never writes solutions. When you start a new chapter, it will give you a high-level overview of the Python concepts covered and what kinds of problems the exercises will ask you to solve. If you use Claude Code, it will follow these rules automatically.
 
 ### Recommended Git Workflow
 
